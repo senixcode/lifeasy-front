@@ -26,6 +26,7 @@ function ListDetail() {
             </div>
             {
                 status === 'success' && (
+                    <div className="detail-table__container">
                     <table>
                         <thead>
                             <tr>
@@ -61,7 +62,7 @@ function ListDetail() {
                         </tbody>
 
                     </table>
-
+                    </div>
                 )
             }
         </div>

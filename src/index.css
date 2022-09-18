@@ -70,11 +70,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
 .app__container{
- display: flex;
- column-gap: 3rem;
- padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  padding: 1.5rem;
+ }
+
+
+@media (min-width:600px) {
+  .app__container{
+    display: flex;
+    column-gap: 3rem;
+    padding: 1.5rem;
+   }
 }
 
 .form__container{
@@ -120,4 +129,8 @@ input, select {
 }
 .header-details button{
   margin-bottom: 0.5rem;
+}
+
+.detail-table__container{
+  overflow-x: auto;
 }
