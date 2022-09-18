@@ -1,0 +1,1 @@
+export const isNotEmptyObject = (data) => Object.entries(data).length > 0  ? data : false
