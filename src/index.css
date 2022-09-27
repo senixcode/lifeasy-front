@@ -74,15 +74,16 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
-  padding: 1.5rem;
+  padding: 0.5rem;
  }
 
 
-@media (min-width:600px) {
+@media (min-width:820px) {
   .app__container{
     display: flex;
     column-gap: 3rem;
     padding: 1.5rem;
+    flex-direction: row;
    }
 }
 
